@@ -45,5 +45,5 @@ SELECT sum(quantity) FROM orders;
 
 SELECT sum(quantity*product_price) FROM orders;
 
-SELECT person_id, (quantity*product_price) FROM orders
+SELECT sum(quantity*product_price) FROM orders
 WHERE person_id = 1;
