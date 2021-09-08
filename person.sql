@@ -5,7 +5,7 @@ CREATE TABLE person (
     height Integer,
     city VARCHAR(20),
     favorite_color VARCHAR(10)
-)
+);
 
 INSERT INTO person(
     person_name,
